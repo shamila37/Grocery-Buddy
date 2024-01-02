@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+}
+body{
+    overflow-x: hidden;
+}
+.hero{
+    position: relative;
+    background-image: url(Images/bg_new.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+nav{
+    display: flex;
+
+    width: 84%;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding-top: 0;
+    margin-top: 0;
+    width: 100px;
+    cursor: pointer;
+}
+nav ul{
+    position: relative;
+    left: 370px;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 19px;
+    list-style: none;
+    margin: 0px;
+    padding-left: 50px;
+}
+nav button{
+    position:absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    left: 1420px;
+}
+nav button{
+    margin: 0;
+    cursor: pointer;
+    background: none;
+    color: greenyellow;
+    width: 100px;
+    height: 50px;
+    border: 2px solid greenyellow;
+    font-size: 20px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+}
+nav button:hover{
+    color: #ffffff;
+    background-color: rgb(109, 174, 11);
+}
+
+.details01 button{
+    position:relative;
+    top: -280px;
+    transform: translate(-50%, -50%);
+    left: 630px;
+    margin: 0;
+    cursor: pointer;
+    background: none;
+    color: rgb(124, 205, 1);
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(136, 216, 16);
+    font-size: 20px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+    
+
+
+}
+.details01 button:hover{
+    color: #ffffff;
+    background-color: rgb(97, 159, 5);
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #50f622;
+}
+.details01{
+    color: #ffffff;
+    position: relative;
+    top: 110px;
+    width: 50%;
+}
+.details01 span{
+    color: #50f622;
+}
+.details01 h1{
+    text-align: center;
+    font-size: 60px;
+    font-family:monospace;
+
+}
+.details01 p{
+    position: relative;
+    padding-top: 50px;
+    left: 50px;
+    font-size: 20px;
+
+}
+.details01 ul{
+    position: relative;
+    left: 100px;
+    list-style: none;
+    top: 40px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+}
+.tag{
+    position: sticky;
+}
+.tag{
+    background-color: black;
+    position: relative;
+    width: 100%;
+}
+.tag h2{
+    position: relative;
+    font-style: italic;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color: #ffffff;
+    top: 14px;
+}
+.details02{
+    width: 100%;
+}
+.details02 h1{
+    position: relative;
+    text-align: center;
+    top: 150px;
+    font-size: 50px;
+}
+.details02 p {
+    width: 100%;
+    position: relative;
+    top: 150px;
+    left: 30px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+.middle{
+    background-color: #e9e9e9;;
+    height: 75vh;
+}
+.items{
+    position: relative;
+    top: 300px;
+    left: 130px;
+    gap: 60px;
+    display:flex;
+    text-align: center;
+    
+}
+.items h3{
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.items img{
+    -webkit-transition: -webkit-transform 1s;
+}
+.items img:hover{
+    -webkit-transform: rotate(360deg) translateZ(0);
+}
+.last{
+    background: #e9e9e9;
+}
+.comments{
+    position: relative;
+    top: 700px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background: #e9e9e9;
+    font-family: system-ui;
+}
+.comment-box,.post-comment .list{
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px #0002;
+}
+.comments{
+    width: 850px;
+    height: auto;
+    margin: 0 auto;
+}
+.post-comment{
+    position: relative;
+    left: 30px;
+    top: 50px;
+    width: 90%;
+    height: 350px;
+
+}
+.post-comment .list{
+    width: 100%;
+    margin-bottom: 12px;
+}
+.post-comment .list .user{
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+}
+.post-comment .list .user img{
+    height: 38px;
+    width: 38px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.comments .name{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.post-comment .list .day{
+    font-size: 12px;
+}
+.post-comment .comment-post{
+    padding: 0 0 15px 58px;
+}
+
+.comment-box{
+    cursor: pointer;
+    padding: 10px;
+    overflow: hidden;
+}
+.comment-box .user{
+    display: flex;
+    width: min-content;
+}
+.comment-box .image img{
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.comment-box textarea{
+    background: #eee;
+    width: -webkit-fill-available;
+    height: 152px;
+    margin: 10px 0;
+    padding: 10px;
+    resize: inherit;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 0 0 0 0.5 #0003;
+}
+.comment-box textarea:focus-visible{
+    box-shadow: inset 0 0 0 1px #2fc007 ;
+    outline: none;
+}
+.comment-box .comment-submit{
+    float: right;
+    padding: 6px 10px;
+    border: none;
+    background: #2fc007;
+    color: #eee;
+    cursor: pointer;
+    border-radius: 3px; 
+}
+.comment-box .comment-submit:hover{
+    background: #0076bf;
+}
+
+
+
+
+
+.container{
+    max-width: 1470px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap; 
+}
+ul{
+    list-style: none;
+}
+.footer{
+    position: relative;
+    top: 900px;
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 30%;
+    padding-left: 40px;
+    margin: 0;
+    height: 200px;
+}
+.row{
+    position: relative;
+    left: 140px;
+}
+.footer-col h4{
+    text-decoration:underline ;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::befor{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}
+
+

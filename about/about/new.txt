@@ -1,0 +1,21 @@
+Grocery Management System for Tourists (GMST)
+
+Problem 
+- People such as Tourists can’t find the exact location to buy their daily goods.
+- They need an easy method to get goods and stuff to their doorstep.
+
+What we are doing (Solution)
+- we design an online platform named GMST where customers including tourists and locals can buy their goods online through a website.
+- They can compare the value of all items and select the quantity according to their need.
+- We offer an island wide delivery service so that they can get the goods at their doorstep.
+
+Procedure
+- customers request the price chart for the relevant category 
+- then they can select the item name & quantity 
+- Then after they enter their home address, we deliver that item to them.
+- If an item is out of stock, then we suggest another item from a different brand which also fulfills the same need
+
+Advantages 
+- tourists and people who don’t have time for shopping can easily shop online through our platform
+- No need to travel and waste time on shopping as we deliver the items to their doorstep 
+- Can compare the current prices and trending products with higher market demand for the product they entered
